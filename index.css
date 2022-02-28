@@ -4,7 +4,7 @@
   font-family: "Bai Jamjuree", sans-serif;
 }
 body {
-  min-width: 320px;
+  min-width: 350px;
   margin: 0 0 0 0;
 }
 .container {
@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
   text-align: center;
   font-size: 15px;
-  background-image: url(bg-header-mobile.png);
+  background-image: url(bg-header-desktop.png);
   color: hsl(210, 10%, 33%);
   background-repeat: no-repeat;
   background-position: top;
@@ -174,7 +174,7 @@ footer .icons img {
 }
 @media (min-width: 960px) {
   .container {
-    width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
   }
   .content {
@@ -228,7 +228,7 @@ footer .icons img {
     align-items: center;
   }
   .comp img {
-    margin-left: -10em;
+    margin-left: -15em;
     width: 650px;
   }
   .comp-text {
